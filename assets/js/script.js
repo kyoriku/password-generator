@@ -18,5 +18,7 @@ function generatePassword() {
   var lowercaseCharacters = "abcdefghijklmnopqrstuvwxyz";
   var uppercaseCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var numericCharacters = "1234567890";
-  var specialCharacteres = "!#$%&'()*+,-./:;<=>?@][^_`{|}~";
+  var specialCharacters = "!#$%&'()*+,-./:;<=>?@][^_`{|}~";
+
+  var passwordLength = prompt ("How many characters would you like your password to be? Enter a number between 8-128");
 }
