@@ -19,11 +19,18 @@ function generatePassword() {
   var uppercaseCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var numericCharacters = "1234567890";
   var specialCharacters = "!#$%&'()*+,-./:;<=>?@][^_`{|}~";
+  var includedCharacterType = "";
 
   var passwordLength = prompt ("How many characters would you like your password to be? Enter a number between 8-128.");
 
   if (passwordLength < 8 || passwordLength > 128) {
     alert ("The password must be at least 8 characters and no more than 128 characters. Enter a number between 8-128.");
     return "";
+  }
+
+  var includeLowercaseCharacters = confirm ("Do you want to include lowercase characters?")
+
+  if (includeLowercaseCharacters) {
+    includedCharacterType = includedCharacterType.concat(lowercaseCharacters)
   }
 }
