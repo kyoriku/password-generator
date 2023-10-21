@@ -39,4 +39,10 @@ function generatePassword() {
   if (includeUppercaseCharacters) {
     includedCharacterType = includedCharacterType.concat(uppercaseCharacters)
   }
+
+  var includeNumericCharacters = confirm ("Do you want to include numeric characters?")
+
+  if (includeNumericCharacters) {
+    includedCharacterType = includedCharacterType.concat(numericCharacters)
+  }
 }
