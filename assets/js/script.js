@@ -45,4 +45,10 @@ function generatePassword() {
   if (includeNumericCharacters) {
     includedCharacterType = includedCharacterType.concat(numericCharacters)
   }
+
+  var includeSpecialCharacters = confirm ("Do you want to include special characters?")
+  
+  if (includeSpecialCharacters) {
+    includedCharacterType = includedCharacterType.concat(specialCharacters)
+  }
 }
