@@ -51,4 +51,9 @@ function generatePassword() {
   if (includeSpecialCharacters) {
     includedCharacterType = includedCharacterType.concat(specialCharacters)
   }
+
+  if (!includeLowercaseCharacters && !includeUppercaseCharacters && !includeNumericCharacters && !includeSpecialCharacters) {
+    includedCharacterType = alert ("At least one character type must be selected to generate a password");
+    return "";
+  }
 }
