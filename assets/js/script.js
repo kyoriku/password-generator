@@ -31,28 +31,28 @@ function generatePassword() {
     return "";
   }
 
-  var includeLowercaseCharacters = confirm ("Do you want to include lowercase characters?")
+  var includeLowercaseCharacters = confirm ("Do you want to include lowercase characters?");
 
   if (includeLowercaseCharacters) {
-    includedCharacterType = includedCharacterType.concat(lowercaseCharacters)
+    includedCharacterType = includedCharacterType.concat(lowercaseCharacters);
   }
 
-  var includeUppercaseCharacters = confirm ("Do you want to include uppercase characters?")
+  var includeUppercaseCharacters = confirm ("Do you want to include uppercase characters?");
 
   if (includeUppercaseCharacters) {
-    includedCharacterType = includedCharacterType.concat(uppercaseCharacters)
+    includedCharacterType = includedCharacterType.concat(uppercaseCharacters);
   }
 
-  var includeNumericCharacters = confirm ("Do you want to include numeric characters?")
+  var includeNumericCharacters = confirm ("Do you want to include numeric characters?");
 
   if (includeNumericCharacters) {
-    includedCharacterType = includedCharacterType.concat(numericCharacters)
+    includedCharacterType = includedCharacterType.concat(numericCharacters);
   }
 
-  var includeSpecialCharacters = confirm ("Do you want to include special characters?")
+  var includeSpecialCharacters = confirm ("Do you want to include special characters?");
   
   if (includeSpecialCharacters) {
-    includedCharacterType = includedCharacterType.concat(specialCharacters)
+    includedCharacterType = includedCharacterType.concat(specialCharacters);
   }
 
   if (!includeLowercaseCharacters && !includeUppercaseCharacters && !includeNumericCharacters && !includeSpecialCharacters) {
