@@ -19,6 +19,7 @@
 - [MDN - String.prototype.concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat)
 - [MDN - isNaN()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN)
 - [MDN - null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null)
+- [MDN - Addition assignment (+=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition_assignment)
 
 ## License
 Please refer to the LICENSE in the repo.
