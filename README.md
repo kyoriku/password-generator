@@ -4,7 +4,7 @@
 - 
 
 ## Usage
--
+> [Link to deployed application](https://kyoriku.github.io/password-generator/)
 
 ![Screenshot](assets/images/passwordgenerator.png)
 
