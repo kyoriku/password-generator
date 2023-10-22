@@ -6,6 +6,8 @@
 ## Usage
 -
 
+![Screenshot](assets/images/passwordgenerator.png)
+
 ## Credits
 - [MDN - Window: prompt() method](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
 - [MDN - Window: alert() method](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)
@@ -16,6 +18,7 @@
 - [MDN - return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
 - [MDN - String.prototype.concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat)
 - [MDN - isNaN()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN)
+- [MDN - null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null)
 
 ## License
 Please refer to the LICENSE in the repo.
