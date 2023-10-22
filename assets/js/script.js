@@ -20,6 +20,7 @@ function generatePassword() {
   var numericCharacters = "1234567890";
   var specialCharacters = "!#$%&'()*+,-./:;<=>?@][^_`{|}~";
   var includedCharacterType = "";
+  var generatedPassword = "";
 
   var passwordLength = prompt ("How many characters do you want the password to be? Enter a number between 8-128.");
 
@@ -56,4 +57,11 @@ function generatePassword() {
     includedCharacterType = alert ("At least one character type must be selected to generate a password");
     return "";
   }
+
+  for (var i = 0; i < passwordLength; i++) {
+    var randomIndex = Math.floor(Math.random() * includedCharacterType.length);
+    generatedPassword += includedCharacterType[randomIndex];
+  }
+  
+  return generatedPassword;
 }
