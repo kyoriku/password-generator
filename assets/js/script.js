@@ -68,7 +68,7 @@ function generatePassword() {
     return "";
   }
 
-  // Loops through the character types based on the length of password and included characters types defined by the user, then returns the value to the generatePassword variable which is then written in the box above the button
+  // Loops through the character types based on the length of password and included characters types defined by the user, then returns the value to the generatePassword variable which is then written to the page
   for (var i = 0; i < passwordLength; i++) {
     var randomIndex = Math.floor(Math.random() * includedCharacterType.length);
     generatedPassword += includedCharacterType[randomIndex];
