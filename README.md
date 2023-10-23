@@ -1,7 +1,7 @@
 # JavaScript Password Generator
 
 ## Description
-- This application randomly generates a password based on the length (8-128 characters) and charactyper types (lowercase, uppercase, numeric and special) selected by the user. Using a series of prompts and confirm windows, the user must select which criteria to include in the password. After all prompts are answered and at least one character type is selected, the password is generated and written to the page.
+- This application randomly generates a password based on the length (8-128 characters) and character types (lowercase, uppercase, numeric and special) selected by the user. Using a series of prompts and confirm windows, the user must select which criteria to include in the password. After all prompts are answered and at least one character type is selected, the password is generated and written to the page.
 
 ## Usage
 > [Link to deployed application](https://kyoriku.github.io/password-generator/)
