@@ -118,6 +118,11 @@ button[disabled] {
   overflow: hidden;
 }
 
+footer {
+  text-align: center;
+  padding-top: 125px;
+}
+
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
